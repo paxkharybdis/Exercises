@@ -1,17 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 
 namespace Exercises
 {
     public class PrintSum
     {
-        int numberToSum;
-        int sum = 0;
-        //int summedUp;
+        private int numberToSum;
+        private int sum = 0;
 
         public int RequestInput()
         {
@@ -25,17 +19,6 @@ namespace Exercises
             Console.WriteLine("The sum of 1 to " + numberToSum + " is " + sum);
 
             return numberToSum;
-
-
-
         }
-
-
-        public void AddSum()
-        {
-
-            //return numberToSum;  
-        }
-
     }
 }

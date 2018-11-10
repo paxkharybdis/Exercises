@@ -9,8 +9,8 @@
 
         public static void CallMenu()
         {
-            PrintSum sumNumber = new PrintSum();
-            sumNumber.RequestInput();
+            Menu call = new Menu();
+            call.MenuDisplay();
         }
     }
 }

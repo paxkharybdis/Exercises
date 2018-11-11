@@ -4,8 +4,7 @@ namespace Exercises
 {
     public class PrintSum
     {
-        private int numberToSum;
-        private int sum = 0;
+        private int numberToSum, sum = 0;
 
         public int RequestInput()
         {
@@ -18,7 +17,7 @@ namespace Exercises
                 sum = sum + n;
             }
             Console.WriteLine("The sum of 1 to " + numberToSum + " is " + sum);
-            Console.WriteLine("Press any key to return to the main menu.");
+            Console.WriteLine("Press ENTER to return to the main menu.");
             Console.ReadLine();
             return numberToSum;
         }

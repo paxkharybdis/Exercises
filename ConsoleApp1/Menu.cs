@@ -15,14 +15,14 @@ namespace Exercises
                 Console.WriteLine("================================================");
                 Console.WriteLine("Which C# skills exercise would you like to try?");
                 Console.WriteLine("Sum of given number.            (1)");
-                /* Console.WriteLine("                                (2)");
-                 Console.WriteLine("                                (3)");
-                 Console.WriteLine("                                (4)");
-                 Console.WriteLine("                                (5)");
-                 Console.WriteLine("                                (6)");
-                 Console.WriteLine();
-                 Console.WriteLine();
-                 Console.WriteLine();*/
+                Console.WriteLine("Sum of 3 and 5 multiples.       (2)");
+                /*Console.WriteLine("                                (3)");
+                Console.WriteLine("                                (4)");
+                Console.WriteLine("                                (5)");
+                Console.WriteLine("                                (6)");
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();*/
                 Console.WriteLine("================================================");
                 Console.WriteLine();
                 Console.Write("Enter choice:");
@@ -36,7 +36,9 @@ namespace Exercises
                         newSum.RequestInput();
                         break;
                     case "2":
-
+                        Console.WriteLine("The 3 And 5 Exercise");
+                        SumThreeAndFive tfsum = new SumThreeAndFive();
+                        tfsum.ThreeFiveInput();
                         break;
                     case "3":
 

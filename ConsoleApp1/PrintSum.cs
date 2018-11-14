@@ -9,6 +9,7 @@ namespace Exercises
         public int RequestInput()
         {
             Console.Clear();
+            Console.WriteLine("***** The Sum Calculator *****");
             Console.WriteLine("Enter a number:");
             numberToSum = int.Parse(Console.ReadLine());
 
@@ -21,7 +22,5 @@ namespace Exercises
             Console.ReadLine();
             return numberToSum;
         }
-
-
     }
 }

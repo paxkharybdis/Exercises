@@ -4,7 +4,6 @@ namespace Exercises
 {
     public class Menu
     {
-
         public void MenuDisplay()
         {
             string menuInput;
@@ -14,10 +13,10 @@ namespace Exercises
                 Console.Clear();
                 Console.WriteLine("================================================");
                 Console.WriteLine("Which C# skills exercise would you like to try?");
-                Console.WriteLine("Sum of given number.            (1)");
-                Console.WriteLine("Sum of 3 and 5 multiples.       (2)");
-                /*Console.WriteLine("                                (3)");
-                Console.WriteLine("                                (4)");
+                Console.WriteLine("Sum of given number.                         (1)");
+                Console.WriteLine("Sum of 3 and 5 multiples for a given number. (2)");
+                Console.WriteLine("Generate product of a given number.          (3)");
+                /*Console.WriteLine("                                (4)");
                 Console.WriteLine("                                (5)");
                 Console.WriteLine("                                (6)");
                 Console.WriteLine();
@@ -31,33 +30,34 @@ namespace Exercises
                 switch (menuInput)
                 {
                     case "1":
-                        Console.WriteLine("The Sum Calculator");
                         PrintSum newSum = new PrintSum();
                         newSum.RequestInput();
                         break;
+
                     case "2":
-                        Console.WriteLine("The 3 And 5 Exercise");
                         SumThreeAndFive tfsum = new SumThreeAndFive();
                         tfsum.ThreeFiveInput();
                         break;
-                    case "3":
 
+                    case "3":
+                        Product gen = new Product();
+                        gen.FindProduct();
                         break;
+
                     case "4":
 
                         break;
+
                     case "5":
 
                         break;
+
                     case "6":
 
                         break;
                 }
             } while (true);
         }
-
-
-
 
         public void NumberSum()
         {

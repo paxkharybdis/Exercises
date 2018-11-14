@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercises
 {
-    class SumThreeAndFive
+    internal class SumThreeAndFive
     {
         private int numberToSum, sum = 0, a, b;
-
 
         public int ThreeFiveInput()
         {
             Console.Clear();
+            Console.WriteLine("***** The 3 And 5 Exercise *****");
             Console.WriteLine("Enter a number and I will add up the sum");
             Console.WriteLine("of all numbers that are multiples of 3 and 5:");
             numberToSum = int.Parse(Console.ReadLine());
@@ -27,7 +23,6 @@ namespace Exercises
                     Console.Write("{0}\t", n);
                     sum = sum + n;
                 }
-
             }
             Console.WriteLine();
             Console.WriteLine("The sum of all numbers that are divisible ");
@@ -36,6 +31,5 @@ namespace Exercises
             Console.ReadLine();
             return numberToSum;
         }
-
     }
 }

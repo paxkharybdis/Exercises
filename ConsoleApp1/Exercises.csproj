@@ -44,11 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Menu.cs" />
+    <Compile Include="PrimeNumbers.cs" />
     <Compile Include="PrintSum.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SumThreeAndFive.cs" />
+    <Compile Include="TimesTables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

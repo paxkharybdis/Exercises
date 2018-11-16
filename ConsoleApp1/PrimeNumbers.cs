@@ -23,27 +23,27 @@ namespace Exercises
                 {
                     Console.Write("{0}\t", i);
                 }
-                if (i >= 500 && i <= 500)
+                if (i == 500)
                 {
                     Console.WriteLine();
                     Console.WriteLine("Hope you packed a lunch.");
                 }
-                if (i >= 5000 && i <= 5000)
+                if (i == 5000)
                 {
                     Console.WriteLine();
                     Console.WriteLine("And maybe a dinner, too.");
                 }
-                if (i >= 11000 && i <= 11000)
+                if (i == 11000)
                 {
                     Console.WriteLine();
                     Console.WriteLine("Can I get you anything?  Coffee?");
                 }
-                if (i >= 30000 && i <= 30000)
+                if (i == 30000)
                 {
                     Console.WriteLine();
                     Console.WriteLine("Just to let you know, we close in ten minutes.");
                 }
-                if (i >= 700000 && i <= 700000)
+                if (i == 700000)
                 {
                     Console.WriteLine();
                     Console.WriteLine("Well, here are the keys, please lock up.");

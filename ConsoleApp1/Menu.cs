@@ -17,8 +17,8 @@ namespace Exercises
                 Console.WriteLine("Sum of 3 and 5 multiples for a given number. (2)");
                 Console.WriteLine("Generate product of a given number.          (3)");
                 Console.WriteLine("Multiplication table.                        (4)");
-                /*Console.WriteLine("                                (5)");
-                Console.WriteLine("                                (6)");
+                Console.WriteLine("List a whole lotta prime numbers.            (5)");
+                /*Console.WriteLine("                                (6)");
                 Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine();*/
@@ -50,7 +50,8 @@ namespace Exercises
                         break;
 
                     case "5":
-
+                        PrimeNumbers prime = new PrimeNumbers();
+                        prime.CalcPrime();
                         break;
 
                     case "6":
